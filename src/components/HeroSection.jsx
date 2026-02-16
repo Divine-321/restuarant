@@ -2,7 +2,7 @@ import { APP_STORE_URL, PLAY_STORE_URL, VIDEO_URL } from "./utils/app.constants"
 
 const HeroSection = () => {
     return (
-        <div className="w-screen h-screen relative">
+        <div className="w-screen h-screen relative overflow-hidden">
             <video src={VIDEO_URL} autoPlay loop playsInline muted/>
 
             <div className="z-10 absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent">
