@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <div className="mb-5 px-5 text-center font-semibold text-5xl text-white mt-8">India's #1 <br /> food delivery app</div>
                 <span className="text-white text-2xl px-5 text-center font-medium">Experience fast & easy online ordering <br /> on the zomato app</span>
 
-                <div>
+                <div className="flex flex-col gap-2 mt-4">
                     <img src={PLAY_STORE_URL} className="w-44" />
                     <img src={APP_STORE_URL} className="w-44" />
                 </div>
