@@ -1,3 +1,4 @@
+import FeatureCard from "./components/FeatureCard";
 import FeaturesSection from "./components/FeaturesSection";
 import HeroSection from "./components/HeroSection";
 import OrderSection from "./components/OrderSection";
@@ -8,6 +9,7 @@ const App = () => {
     <HeroSection />
     <OrderSection />
     <FeaturesSection />
+    <FeatureCard />
   </div>
   
   );
