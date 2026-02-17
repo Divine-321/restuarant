@@ -1,7 +1,4 @@
-
----
-
-# 🍽 3️⃣ Restaurant Website – README
+Restaurant Website – README
 
 ```md
 # 🍽 Restaurant Website (Frontend)
